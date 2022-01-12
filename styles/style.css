@@ -1,0 +1,37 @@
+/* poppnis */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+/* popnis */
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #9F9F9F;
+}
+/* players top */
+.players{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: #562eff;
+    font-size: 24px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
